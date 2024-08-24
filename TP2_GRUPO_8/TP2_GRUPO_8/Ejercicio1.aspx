@@ -17,8 +17,12 @@
         <asp:Label ID="lblCantProducto_1" runat="server" Text="Cantidad: "></asp:Label>
         <asp:TextBox ID="txtCantProducto_1" runat="server"></asp:TextBox>
         <br />
+        <br />
         <asp:Label ID="lblNombreProducto_2" runat="server" Text="Ingrese nombre del producto: "></asp:Label>
         <asp:TextBox ID="txtNombreProducto_2" runat="server" Width="144px"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;
+        <asp:Label ID="lblCantProducto_2" runat="server" Text="Cantidad: "></asp:Label>
+        <asp:TextBox ID="txtCantProducto_2" runat="server"></asp:TextBox>
         <p>
             &nbsp;</p>
     </form>
