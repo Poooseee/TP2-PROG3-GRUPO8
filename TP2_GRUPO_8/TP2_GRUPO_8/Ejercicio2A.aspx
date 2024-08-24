@@ -11,8 +11,11 @@
     <form id="form2A" runat="server">
         <div>
         </div>
-        <asp:Label ID="lblNombre" runat="server" Text="Nombre:"></asp:Label>
+        <asp:Label ID="lblNombre" runat="server" Text="Nombre: "></asp:Label>
         <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+        <br />
+        <asp:Label ID="lblApellido" runat="server" Text="Apellido: "></asp:Label>
+        <asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
     </form>
 </body>
 </html>
