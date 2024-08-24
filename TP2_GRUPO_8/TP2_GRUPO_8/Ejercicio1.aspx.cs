@@ -13,5 +13,10 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void txtNombreProducto_1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

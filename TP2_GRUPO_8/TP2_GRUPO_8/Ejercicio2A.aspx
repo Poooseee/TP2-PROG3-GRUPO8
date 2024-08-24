@@ -6,16 +6,28 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        #form2A {
+            font-weight: 700;
+        }
+    </style>
 </head>
 <body>
     <form id="form2A" runat="server">
         <div>
         </div>
         <asp:Label ID="lblNombre" runat="server" Text="Nombre: "></asp:Label>
-        <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+        &nbsp;<asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+        <br />
         <br />
         <asp:Label ID="lblApellido" runat="server" Text="Apellido: "></asp:Label>
-        <asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
+        &nbsp;<asp:TextBox ID="txtApellido" runat="server" OnTextChanged="txtApellido_TextChanged"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Label ID="lblApellido0" runat="server" Text="Ciudad:"></asp:Label>
+        &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtCiudad" runat="server" OnTextChanged="txtApellido_TextChanged"></asp:TextBox>
+    &nbsp;
     </form>
 </body>
 </html>
