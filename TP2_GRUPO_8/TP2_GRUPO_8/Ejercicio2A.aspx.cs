@@ -11,7 +11,13 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                ListItemCollection coleccion = new ListItemCollection();
+                coleccion.Add(new ListItem("Gral. Pacheco","Zona Norte"));
 
+                
+            }
         }
 
         protected void txtApellido_TextChanged(object sender, EventArgs e)

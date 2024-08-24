@@ -15,16 +15,19 @@
         <asp:TextBox ID="txtNombreProducto_1" runat="server" Height="16px" Width="144px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
         <asp:Label ID="lblCantProducto_1" runat="server" Text="Cantidad: "></asp:Label>
-        <asp:TextBox ID="txtCantProducto_1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtCantProducto_1" runat="server" TextMode="Number"></asp:TextBox>
         <br />
         <br />
         <asp:Label ID="lblNombreProducto_2" runat="server" Text="Ingrese nombre del producto: "></asp:Label>
         <asp:TextBox ID="txtNombreProducto_2" runat="server" Width="144px"></asp:TextBox>
         &nbsp;&nbsp;&nbsp;
         <asp:Label ID="lblCantProducto_2" runat="server" Text="Cantidad: "></asp:Label>
-        <asp:TextBox ID="txtCantProducto_2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtCantProducto_2" runat="server" TextMode="Number"></asp:TextBox>
+        <br />
         <p>
-            &nbsp;</p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnTabla" runat="server" OnClick="btnTabla_Click" Text="Generar Tabla" Width="103px" />
+        </p>
     </form>
 </body>
 </html>

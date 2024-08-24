@@ -27,8 +27,9 @@
         <br />
         <asp:Label ID="lblApellido0" runat="server" Text="Ciudad:"></asp:Label>
         &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtCiudad" runat="server" OnTextChanged="txtApellido_TextChanged"></asp:TextBox>
-    &nbsp;
+        &nbsp;
+        <asp:DropDownList ID="ddlCiudad" runat="server" Width="116px">
+        </asp:DropDownList>
     </form>
 </body>
 </html>

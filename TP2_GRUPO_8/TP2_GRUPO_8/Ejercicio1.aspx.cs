@@ -18,5 +18,11 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void btnTabla_Click(object sender, EventArgs e)
+        {
+           string producto1 = txtNombreProducto_1.Text.Trim();
+           string producto2 = txtNombreProducto_2.Text.Trim();
+        }
     }
 }
