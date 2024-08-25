@@ -15,9 +15,14 @@ namespace TP2_GRUPO_8
             {
                 ListItemCollection coleccion = new ListItemCollection();
                 coleccion.Add(new ListItem("Gral. Pacheco","Zona Norte"));
+                coleccion.Add(new ListItem("San Miguel", "Zona Oeste"));
 
-                
+                foreach(ListItem item in coleccion)
+                {
+                    ddlCiudad.Items.Add(item);
+                }
             }
+
         }
 
         protected void txtApellido_TextChanged(object sender, EventArgs e)
