@@ -28,24 +28,9 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnTabla" runat="server" OnClick="btnTabla_Click" Text="Generar Tabla" Width="103px" />
         </p>
-        <asp:Table ID="TblTotal" runat="server" OnDataBinding="btnTabla_Click" Visible="False" Width="16px">
-            <asp:TableRow runat="server">
-                <asp:TableCell ID="CellProductos" runat="server" BorderStyle="Double">Productos</asp:TableCell>
-                <asp:TableCell ID="CellCant" runat="server" BorderStyle="Double">Cantidad</asp:TableCell>
-            </asp:TableRow>
-            <asp:TableRow runat="server">
-                <asp:TableCell ID="CellProd1" runat="server" BorderStyle="Double"></asp:TableCell>
-                <asp:TableCell ID="CellCant1" runat="server" BorderStyle="Double"></asp:TableCell>
-            </asp:TableRow>
-            <asp:TableRow runat="server">
-                <asp:TableCell ID="CellProd2" runat="server" BorderStyle="Double"></asp:TableCell>
-                <asp:TableCell ID="CellCant2" runat="server" BorderStyle="Double"></asp:TableCell>
-            </asp:TableRow>
-            <asp:TableRow runat="server">
-                <asp:TableCell ID="CellTotal" runat="server" BorderStyle="Double">Total</asp:TableCell>
-                <asp:TableCell ID="CellNumTot" runat="server" BorderStyle="Double"></asp:TableCell>
-            </asp:TableRow>
-        </asp:Table>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Label ID="lblTabla" runat="server"></asp:Label>
+        </p>
     </form>
 </body>
 </html>
