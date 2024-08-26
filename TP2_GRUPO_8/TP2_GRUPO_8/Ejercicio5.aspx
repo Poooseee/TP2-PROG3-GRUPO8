@@ -24,7 +24,7 @@
             </asp:DropDownList>
             <br />
             <br />
-            <asp:Label ID="lblMemoria0" runat="server" Font-Bold="True" Text="Seleccione accesorios:"></asp:Label>
+            <asp:Label ID="lblAccesorios" runat="server" Font-Bold="True" Text="Seleccione accesorios:"></asp:Label>
             <br />
         </div>
         <div style="margin-left: 80px">
