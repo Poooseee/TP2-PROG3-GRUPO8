@@ -9,8 +9,11 @@
 </head>
 <body>
     <form id="form5" runat="server">
-        <div>
-            <asp:Label ID="lblConfiguracion" runat="server" Font-Bold="True" Text="Elija su Configuracion"></asp:Label>
+        <div style="margin-left: 40px">
+            <asp:Label ID="lblConfiguracion" runat="server" Font-Bold="True" Text="Elija su Configuracion" Font-Size="X-Large"></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="lblMemoria" runat="server" Font-Bold="True" Text="Seleccione cantidad de memoria: "></asp:Label>
         </div>
     </form>
 </body>

@@ -7,16 +7,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body>
+<body style="height: 383px">
     <form id="form4A" runat="server">
         <div>
             <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
 &nbsp;
-            <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtUsuario" runat="server" Width="157px"></asp:TextBox>
+            <br />
             <br />
             <asp:Label ID="lblClave" runat="server" Text="Clave:"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="txtClave" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtClave" runat="server" Height="16px" TextMode="Password" Width="158px"></asp:TextBox>
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
             <br />
         </div>
     </form>

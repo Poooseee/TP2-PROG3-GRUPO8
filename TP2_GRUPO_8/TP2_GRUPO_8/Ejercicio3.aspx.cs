@@ -19,5 +19,7 @@ namespace TP2_GRUPO_8
         {
             lblColoreado.ForeColor = Color.Red;
         }
+
+        
     }
 }
