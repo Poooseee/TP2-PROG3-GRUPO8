@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,6 +13,11 @@ namespace TP2_GRUPO_8
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void LkBtnRojo_Click(object sender, EventArgs e)
+        {
+            lblColoreado.ForeColor = Color.Red;
         }
     }
 }

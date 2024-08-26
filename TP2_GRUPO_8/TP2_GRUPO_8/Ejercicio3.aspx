@@ -12,7 +12,7 @@
         <div>
             <br />
             <br />
-            <asp:LinkButton ID="LkBtnRojo" runat="server">Rojo</asp:LinkButton>
+            <asp:LinkButton ID="LkBtnRojo" runat="server" OnClick="LkBtnRojo_Click">Rojo</asp:LinkButton>
             <br />
             <br />
             <br />
