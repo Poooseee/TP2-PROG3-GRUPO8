@@ -13,5 +13,17 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void BtnValidar_Click(object sender, EventArgs e)
+        {
+            if(txtUsuario.Text.Trim()== "claudio" && txtClave.Text.Trim() == "casas")
+            {
+
+            }
+            else
+            {
+
+            }
+        }
     }
 }

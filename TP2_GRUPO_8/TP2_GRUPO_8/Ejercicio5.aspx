@@ -19,6 +19,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlMemoria" runat="server" OnSelectedIndexChanged="ddlMemoria_SelectedIndexChanged">
                 <asp:ListItem Value="200">2GB</asp:ListItem>
+                <asp:ListItem Value="375">4GB</asp:ListItem>
+                <asp:ListItem Value="500">6GB</asp:ListItem>
             </asp:DropDownList>
         </div>
     </form>

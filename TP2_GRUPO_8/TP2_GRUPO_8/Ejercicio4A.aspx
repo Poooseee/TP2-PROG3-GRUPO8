@@ -21,7 +21,7 @@
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-            <asp:Button ID="BtnValidar" runat="server" Text="Validar" />
+            <asp:Button ID="BtnValidar" runat="server" Text="Validar" OnClick="BtnValidar_Click" />
             <br />
             <br />
         </div>
