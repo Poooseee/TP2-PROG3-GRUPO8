@@ -23,7 +23,13 @@ namespace TP2_GRUPO_8
         {
            string producto1 = txtNombreProducto_1.Text.Trim();
            string producto2 = txtNombreProducto_2.Text.Trim();
-            TblTotal.Visible = true;
+
+            string tabla;
+
+            tabla = "<table border = '1'>";
+            tabla += "<tr> <th> Producto </th> <th> Cantidad </th> </tr>";
+
+            
         }
     }
 }
