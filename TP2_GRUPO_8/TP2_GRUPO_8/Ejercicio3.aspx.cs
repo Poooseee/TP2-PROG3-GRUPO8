@@ -24,5 +24,10 @@ namespace TP2_GRUPO_8
         {
             lblColoreado.ForeColor = Color.Green;
         }
+
+        protected void LkBtnAzul_Click(object sender, EventArgs e)
+        {
+            lblColoreado.ForeColor = Color.Blue;
+        }
     }
 }
