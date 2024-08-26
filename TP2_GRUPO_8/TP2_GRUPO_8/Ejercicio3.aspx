@@ -11,8 +11,10 @@
     <form id="form3" runat="server">
         <div>
             <br />
-            <br />
             <asp:LinkButton ID="LkBtnRojo" runat="server" OnClick="LkBtnRojo_Click">Rojo</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="LkBtnVerde" runat="server" OnClick="LkBtnVerde_Click">Verde</asp:LinkButton>
             <br />
             <br />
             <asp:LinkButton ID="LkBtnAzul" runat="server">Azul</asp:LinkButton>

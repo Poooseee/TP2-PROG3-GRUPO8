@@ -14,6 +14,12 @@
             <br />
             <br />
             <asp:Label ID="lblMemoria" runat="server" Font-Bold="True" Text="Seleccione cantidad de memoria: "></asp:Label>
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:DropDownList ID="ddlMemoria" runat="server" OnSelectedIndexChanged="ddlMemoria_SelectedIndexChanged">
+                <asp:ListItem Value="200">2GB</asp:ListItem>
+            </asp:DropDownList>
         </div>
     </form>
 </body>

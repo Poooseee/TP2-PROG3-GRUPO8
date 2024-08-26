@@ -13,5 +13,10 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void ddlMemoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

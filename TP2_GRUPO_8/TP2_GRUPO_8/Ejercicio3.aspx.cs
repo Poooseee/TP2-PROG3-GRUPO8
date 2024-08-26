@@ -20,6 +20,9 @@ namespace TP2_GRUPO_8
             lblColoreado.ForeColor = Color.Red;
         }
 
-        
+        protected void LkBtnVerde_Click(object sender, EventArgs e)
+        {
+            lblColoreado.ForeColor = Color.Green;
+        }
     }
 }
