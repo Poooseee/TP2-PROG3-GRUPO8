@@ -14,6 +14,10 @@
 &nbsp;
             <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
             <br />
+            <asp:Label ID="lblClave" runat="server" Text="Clave:"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txtClave" runat="server"></asp:TextBox>
+            <br />
         </div>
     </form>
 </body>
