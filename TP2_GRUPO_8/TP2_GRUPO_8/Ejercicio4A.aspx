@@ -10,6 +10,10 @@
 <body>
     <form id="form4A" runat="server">
         <div>
+            <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
+&nbsp;
+            <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
+            <br />
         </div>
     </form>
 </body>

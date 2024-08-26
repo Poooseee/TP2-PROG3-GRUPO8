@@ -10,6 +10,7 @@
 <body>
     <form id="form5" runat="server">
         <div>
+            <asp:Label ID="lblConfiguracion" runat="server" Font-Bold="True" Text="Elija su Configuracion"></asp:Label>
         </div>
     </form>
 </body>

@@ -10,6 +10,12 @@
 <body>
     <form id="form3" runat="server">
         <div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Label ID="lblColoreado" runat="server" Text="Texto Coloreado"></asp:Label>
         </div>
     </form>
 </body>
