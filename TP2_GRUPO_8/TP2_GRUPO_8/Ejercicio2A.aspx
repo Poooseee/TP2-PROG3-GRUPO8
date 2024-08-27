@@ -28,11 +28,22 @@
         <asp:Label ID="lblApellido0" runat="server" Text="Ciudad:"></asp:Label>
         &nbsp;&nbsp;&nbsp;
         &nbsp;
-        <asp:DropDownList ID="ddlCiudad" runat="server" Width="116px">
+        <asp:DropDownList ID="ddlCiudad" runat="server" Width="116px" OnSelectedIndexChanged="ddlCiudad_SelectedIndexChanged">
         </asp:DropDownList>
         <br />
         <br />
         <asp:Label ID="lblTemas" runat="server" Text="Temas:"></asp:Label>
+        <div style="margin-left: 80px">
+            <asp:CheckBoxList ID="CheckBoxList1" runat="server" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
+                <asp:ListItem>Ciencias</asp:ListItem>
+                <asp:ListItem>Literatura</asp:ListItem>
+                <asp:ListItem>Historia</asp:ListItem>
+            </asp:CheckBoxList>
+        </div>
+        <p style="margin-left: 120px">
+            <br />
+            <asp:Button ID="BtnResumen" runat="server" OnClick="BtnResumen_Click" Text="Ver resumen" />
+        </p>
     </form>
 </body>
 </html>

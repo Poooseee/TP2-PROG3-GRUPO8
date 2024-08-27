@@ -16,6 +16,7 @@ namespace TP2_GRUPO_8
                 ListItemCollection coleccion = new ListItemCollection();
                 coleccion.Add(new ListItem("Gral. Pacheco","Zona Norte"));
                 coleccion.Add(new ListItem("San Miguel", "Zona Oeste"));
+                coleccion.Add(new ListItem("Garin", "Zona Norte"));
 
                 foreach(ListItem item in coleccion)
                 {
@@ -26,6 +27,21 @@ namespace TP2_GRUPO_8
         }
 
         protected void txtApellido_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void BtnResumen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ddlCiudad_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

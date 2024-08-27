@@ -19,5 +19,10 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -22,6 +22,17 @@
                 <asp:ListItem Value="375">4GB</asp:ListItem>
                 <asp:ListItem Value="500">6GB</asp:ListItem>
             </asp:DropDownList>
+            <br />
+            <br />
+            <asp:Label ID="lblAccesorios" runat="server" Font-Bold="True" Text="Seleccione accesorios:"></asp:Label>
+            <br />
+        </div>
+        <div style="margin-left: 80px">
+            <asp:CheckBoxList ID="CBLAccesorios" runat="server" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
+                <asp:ListItem>Monitor LCD</asp:ListItem>
+                <asp:ListItem>HDD 500GB</asp:ListItem>
+                <asp:ListItem>Grabador DVD</asp:ListItem>
+            </asp:CheckBoxList>
         </div>
     </form>
 </body>
