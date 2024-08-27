@@ -23,11 +23,14 @@ namespace TP2_GRUPO_8
         {
            string producto1 = txtNombreProducto_1.Text.Trim();
            string producto2 = txtNombreProducto_2.Text.Trim();
+           
+           string cantidadProducto1 = txtCantProducto_1.Text.Trim();
+           string cantidadProducto2= txtCantProducto_2.Text.Trim(); 
 
             string tabla;
 
             tabla = "<table border = '1'>";
-            tabla += "<tr> <th> Producto </th> <th> Cantidad </th> </tr>";
+            tabla += "<tr> <th> Producto </th> <th> Cantidad </th> </tr> ";
 
             
         }
