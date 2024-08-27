@@ -11,6 +11,10 @@
     <form id="form2B" runat="server">
         <div>
             <asp:Label ID="lblResumen" runat="server" Text="RESUMEN"></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="lblNombre" runat="server" Text="Nombre:   "></asp:Label>
+            <asp:Label ID="lblNombreResumen" runat="server" Font-Bold="True"></asp:Label>
         </div>
     </form>
 </body>

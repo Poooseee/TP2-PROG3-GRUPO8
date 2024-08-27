@@ -21,18 +21,21 @@ namespace TP2_GRUPO_8
 
         protected void btnTabla_Click(object sender, EventArgs e)
         {
-           string producto1 = txtNombreProducto_1.Text.Trim();
-           string producto2 = txtNombreProducto_2.Text.Trim();
+            //FALTA VALIDAR QUE SE INGRESEN AMBOS PRODUCTOS CON SUS CANTIDADES
+            string producto1 = txtNombreProducto_1.Text.Trim();
+            string producto2 = txtNombreProducto_2.Text.Trim();
            
-           string cantidadProducto1 = txtCantProducto_1.Text.Trim();
-           string cantidadProducto2= txtCantProducto_2.Text.Trim(); 
+            string cantidadProducto1 = txtCantProducto_1.Text.Trim();
+            string cantidadProducto2= txtCantProducto_2.Text.Trim(); 
 
             string tabla;
 
             tabla = "<table border = '1'>";
             tabla += "<tr> <th> Producto </th> <th> Cantidad </th> </tr> ";
+            tabla += "<tr> <th> " + producto1 + "</th> <th> " + cantidadProducto1 + "</th> </tr>";
+            //FALTA LA tr DEL SEGUNDO PRODUCTO
 
-            
+            lblTabla.Text = tabla;
         }
     }
 }

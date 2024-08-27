@@ -11,13 +11,13 @@
     <form id="form3" runat="server">
         <div>
             <br />
-            <asp:LinkButton ID="LkBtnRojo" runat="server" OnClick="LkBtnRojo_Click">Rojo</asp:LinkButton>
+            <asp:LinkButton ID="LkBtnRojo" runat="server" OnClick="LkBtnRojo_Click" ForeColor="Red">Rojo</asp:LinkButton>
             <br />
             <br />
-            <asp:LinkButton ID="LkBtnVerde" runat="server" OnClick="LkBtnVerde_Click">Verde</asp:LinkButton>
+            <asp:LinkButton ID="LkBtnVerde" runat="server" OnClick="LkBtnVerde_Click" ForeColor="Green">Verde</asp:LinkButton>
             <br />
             <br />
-            <asp:LinkButton ID="LkBtnAzul" runat="server" OnClick="LkBtnAzul_Click">Azul</asp:LinkButton>
+            <asp:LinkButton ID="LkBtnAzul" runat="server" OnClick="LkBtnAzul_Click" ForeColor="Blue">Azul</asp:LinkButton>
             <br />
             <br />
             <asp:Label ID="lblColoreado" runat="server" Text="Texto Coloreado"></asp:Label>
