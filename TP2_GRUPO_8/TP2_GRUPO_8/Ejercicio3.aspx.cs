@@ -17,7 +17,15 @@ namespace TP2_GRUPO_8
 
         protected void LkBtnRojo_Click(object sender, EventArgs e)
         {
+            if(lblColoreado.ForeColor == Color.Red)
+            {
+                lblColoreado.ForeColor = Color.Black;
+            }
+            else
+            {
             lblColoreado.ForeColor = Color.Red;
+
+            }
         }
 
         protected void LkBtnVerde_Click(object sender, EventArgs e)

@@ -13,6 +13,9 @@ namespace TP2_GRUPO_8
         {
             string nombre = Request["txtNombre"].ToString();
             lblNombreResumen.Text = nombre;
+
+            string apellido = ((TextBox)PreviousPage.FindControl("txtApellido")).Text;
+          
         }
     }
 }
