@@ -18,7 +18,7 @@ namespace TP2_GRUPO_8
         {
             if(txtUsuario.Text.Trim()== "claudio" && txtClave.Text.Trim() == "casas")
             {
-
+                Server.Transfer("Ejercicio4B.aspx");
             }
             else
             {

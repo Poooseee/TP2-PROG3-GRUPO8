@@ -38,7 +38,7 @@ namespace TP2_GRUPO_8
 
         protected void BtnResumen_Click(object sender, EventArgs e)
         {
-
+            Server.Transfer("Ejercicio2B.aspx");
         }
 
         protected void ddlCiudad_SelectedIndexChanged(object sender, EventArgs e)
