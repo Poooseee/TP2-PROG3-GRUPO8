@@ -11,7 +11,12 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            String Denegado;
 
+            LblDenegado.Text = "USUARIO INVALIDO, ACCESO DENEGADO";
+            LblDenegado.Font.Bold = true;
+            LblDenegado.Font.Italic = true;
+            LblDenegado.Font.Size = FontUnit.XXLarge;
         }
     }
 }

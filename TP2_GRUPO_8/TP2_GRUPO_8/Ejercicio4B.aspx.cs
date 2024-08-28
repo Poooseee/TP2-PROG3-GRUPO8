@@ -14,7 +14,7 @@ namespace TP2_GRUPO_8
             string Nombre;
 
             Nombre = Request.QueryString["Nom"];
-            LbClaudio.Text = "bienvenido " + Nombre;
+            LbClaudio.Text = "Bienvenido Sr. " + Nombre;
         }
     }
 }

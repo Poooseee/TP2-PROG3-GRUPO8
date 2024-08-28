@@ -23,7 +23,7 @@ namespace TP2_GRUPO_8
             }
             else
             {
-
+                Server.Transfer("Ejercicio4C.aspx");
             }
         }
     }

@@ -9,6 +9,7 @@
 </head>
 <body>
     <form id="form4c" runat="server">
+        <asp:Label ID="LblDenegado" runat="server"></asp:Label>
         <div>
         </div>
     </form>
