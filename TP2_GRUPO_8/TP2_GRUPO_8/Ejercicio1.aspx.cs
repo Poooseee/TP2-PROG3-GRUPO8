@@ -33,7 +33,7 @@ namespace TP2_GRUPO_8
             tabla = "<table border = '1'>";
             tabla += "<tr> <th> Producto </th> <th> Cantidad </th> </tr> ";
             tabla += "<tr> <th> " + producto1 + "</th> <th> " + cantidadProducto1 + "</th> </tr>";
-            //FALTA LA tr DEL SEGUNDO PRODUCTO
+            tabla += "<tr> <th> " + producto2 + "</th> <th> " + cantidadProducto2 + "</th> </tr>";
 
             lblTabla.Text = tabla;
         }
