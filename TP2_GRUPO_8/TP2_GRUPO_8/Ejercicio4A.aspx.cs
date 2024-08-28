@@ -11,14 +11,15 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string usuario = Request.QueryString["usuario"];
+           // litUsuario.Text = usuario;
         }
 
         protected void BtnValidar_Click(object sender, EventArgs e)
         {
             if(txtUsuario.Text.Trim()== "claudio" && txtClave.Text.Trim() == "casas")
             {
-                
+                Response.Redirect("Ejercicio4B.aspx?Nom=" + txtUsuario.Text.Trim());
             }
             else
             {

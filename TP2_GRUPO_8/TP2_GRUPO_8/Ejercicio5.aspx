@@ -34,6 +34,10 @@
                 <asp:ListItem>Grabador DVD</asp:ListItem>
             </asp:CheckBoxList>
         </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="BtnCalcularPrecio" runat="server" Text="Calcular Precio" Width="115px" />
     </form>
 </body>
 </html>

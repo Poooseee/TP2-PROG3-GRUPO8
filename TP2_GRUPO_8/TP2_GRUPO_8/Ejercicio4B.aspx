@@ -9,8 +9,7 @@
 </head>
 <body>
     <form id="form4B" runat="server">
-        <div>
-            hola</div>
+        <asp:Label ID="LbClaudio" runat="server" Text="Bienvenido"></asp:Label>
     </form>
 </body>
 </html>

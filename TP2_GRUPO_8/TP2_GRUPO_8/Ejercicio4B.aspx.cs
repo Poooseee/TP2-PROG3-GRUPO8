@@ -11,7 +11,10 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string Nombre;
 
+            Nombre = Request.QueryString["Nom"];
+            LbClaudio.Text = "bienvenido " + Nombre;
         }
     }
 }
