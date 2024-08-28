@@ -30,7 +30,14 @@ namespace TP2_GRUPO_8
 
         protected void LkBtnVerde_Click(object sender, EventArgs e)
         {
-            lblColoreado.ForeColor = Color.Green;
+            if (lblColoreado.ForeColor == Color.Green)
+            {
+                lblColoreado.ForeColor = Color.Black;
+            }
+            else 
+            {
+               lblColoreado.ForeColor = Color.Green;
+            }
         }
 
         protected void LkBtnAzul_Click(object sender, EventArgs e)
