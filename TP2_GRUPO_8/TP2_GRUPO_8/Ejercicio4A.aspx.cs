@@ -17,19 +17,37 @@ namespace TP2_GRUPO_8
 
         protected void BtnValidar_Click(object sender, EventArgs e)
         {
-            if(txtUsuario.Text.Trim().Length > 0 && txtClave.Text.Trim().Length > 0)
+            string usuario = txtUsuario.Text.Trim();
+            string clave = txtClave.Text.Trim();
+
+            lblSinUsuario.Text = "";
+            lblSinClave.Text = " ";
+
+
+            if (usuario.Length > 0 && clave.Length > 0)
             {
 
-            if(txtUsuario.Text.Trim()== "claudio" && txtClave.Text.Trim() == "casas")
-            {
-                Response.Redirect("Ejercicio4B.aspx?Nom=" + txtUsuario.Text.Trim());
-            }
-            else
-            {
-                Server.Transfer("Ejercicio4C.aspx");
-            }
+                if (usuario == "claudio" && clave == "casas")
+                {
+                    //Response.Redirect("Ejercicio4B.aspx?" + txtUsuario.Text.Trim());
+                    //No hace falta llevar ningun dato al formulario B
+                    Response.Redirect("Ejercicio4b.aspx");
+                }
+                else
+                {
+                    Server.Transfer("Ejercicio4C.aspx");
+                }
 
             }
+            if(usuario.Length == 0)
+            {
+                lblSinUsuario.Text = "Debe ingresar un USUARIO";
+            }
+            if (clave.Length == 0)
+            {
+                
+            }
+            
         }
     }
 }

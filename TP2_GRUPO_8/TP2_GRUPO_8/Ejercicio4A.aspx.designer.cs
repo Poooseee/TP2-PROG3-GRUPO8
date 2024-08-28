@@ -42,6 +42,15 @@ namespace TP2_GRUPO_8
         protected global::System.Web.UI.WebControls.TextBox txtUsuario;
 
         /// <summary>
+        /// Control lblSinUsuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSinUsuario;
+
+        /// <summary>
         /// Control lblClave.
         /// </summary>
         /// <remarks>
@@ -58,6 +67,15 @@ namespace TP2_GRUPO_8
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtClave;
+
+        /// <summary>
+        /// Control lblSinClave.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSinClave;
 
         /// <summary>
         /// Control BtnValidar.

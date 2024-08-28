@@ -27,7 +27,11 @@ namespace TP2_GRUPO_8
 
         protected void BtnCalcularPrecio_Click(object sender, EventArgs e)
         {
-          
+            float total;
+            
+            total = int.Parse(ddlMemoria.SelectedValue) ;
+            
+            lblPrecioFinal.Text = "El precio final es: " + total ;
         }
     }
 }

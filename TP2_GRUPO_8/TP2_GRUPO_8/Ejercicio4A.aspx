@@ -13,11 +13,13 @@
             <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
 &nbsp;
             <asp:TextBox ID="txtUsuario" runat="server" Width="157px"></asp:TextBox>
+            <asp:Label ID="lblSinUsuario" runat="server" ForeColor="Red"></asp:Label>
             <br />
             <br />
             <asp:Label ID="lblClave" runat="server" Text="Clave:"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtClave" runat="server" Height="16px" TextMode="Password" Width="158px"></asp:TextBox>
+            <asp:Label ID="lblSinClave" runat="server" ForeColor="Red"></asp:Label>
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
