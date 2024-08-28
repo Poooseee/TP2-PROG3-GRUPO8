@@ -37,7 +37,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="BtnCalcularPrecio" runat="server" Text="Calcular Precio" Width="115px" />
+        <asp:Button ID="BtnCalcularPrecio" runat="server" Text="Calcular Precio" Width="115px" OnClick="BtnCalcularPrecio_Click" />
     </form>
 </body>
 </html>

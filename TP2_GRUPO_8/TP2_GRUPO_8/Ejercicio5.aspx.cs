@@ -24,5 +24,10 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void BtnCalcularPrecio_Click(object sender, EventArgs e)
+        {
+          
+        }
     }
 }
