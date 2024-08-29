@@ -28,7 +28,16 @@ namespace TP2_GRUPO_8
             string cantidadProducto1 = txtCantProducto_1.Text.Trim();
             string cantidadProducto2= txtCantProducto_2.Text.Trim(); 
 
-            int total_productos= int.Parse(cantidadProducto1) + int.Parse(cantidadProducto2);
+int total_productos = 0;
+            if (cantidadProducto1.Length > 0)
+            {
+                total_productos += int.Parse(cantidadProducto1);
+            }
+            if (cantidadProducto2.Length > 0)
+            {
+                total_productos += int.Parse(cantidadProducto2);
+            }
+
 
             string tabla;
 
