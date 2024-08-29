@@ -29,9 +29,7 @@ namespace TP2_GRUPO_8
 
                 if (usuario == "claudio" && clave == "casas")
                 {
-                    //Response.Redirect("Ejercicio4B.aspx?" + txtUsuario.Text.Trim());
-                    //No hace falta llevar ningun dato al formulario B
-                    Response.Redirect("Ejercicio4b.aspx");
+                    Server.Transfer("Ejercicio4B.aspx");
                 }
                 else
                 {
@@ -45,7 +43,7 @@ namespace TP2_GRUPO_8
             }
             if (clave.Length == 0)
             {
-                
+                lblSinClave.Text = "Debe ingresar una CONTRASEÑA";
             }
             
         }

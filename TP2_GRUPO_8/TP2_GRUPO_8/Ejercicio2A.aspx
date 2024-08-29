@@ -29,6 +29,7 @@
         &nbsp;&nbsp;&nbsp;
         &nbsp;
         <asp:DropDownList ID="ddlCiudad" runat="server" Width="116px" OnSelectedIndexChanged="ddlCiudad_SelectedIndexChanged">
+            <asp:ListItem></asp:ListItem>
         </asp:DropDownList>
         <br />
         <br />

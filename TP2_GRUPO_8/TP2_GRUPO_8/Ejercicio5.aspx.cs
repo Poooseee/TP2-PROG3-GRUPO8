@@ -29,11 +29,14 @@ namespace TP2_GRUPO_8
         {
             float total;
             
-            total = float.Parse(ddlMemoria.SelectedValue) ;
+            total = float.Parse(ddlMemoria.SelectedValue);
             
             foreach(ListItem item in CBLAccesorios.Items)
             {
-                
+                if(item.Selected)
+                {
+                    total += float.Parse(item.Value);
+                }
             }
 
             lblPrecioFinal.Text = "El precio final es: " + total ;

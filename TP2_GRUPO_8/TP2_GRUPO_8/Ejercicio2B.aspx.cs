@@ -12,10 +12,12 @@ namespace TP2_GRUPO_8
         protected void Page_Load(object sender, EventArgs e)
         {
             string nombre = Request["txtNombre"].ToString();
-            lblNombreResumen.Text = nombre;
+            lblNombre.Text = nombre;
 
             string apellido = ((TextBox)PreviousPage.FindControl("txtApellido")).Text;
-          
+
+            string zona = Request["ddlCiudad"].ToString();
+            lblZona.Text = zona;
         }
     }
 }

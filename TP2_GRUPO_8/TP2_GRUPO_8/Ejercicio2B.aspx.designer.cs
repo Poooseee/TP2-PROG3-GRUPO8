@@ -42,12 +42,12 @@ namespace TP2_GRUPO_8
         protected global::System.Web.UI.WebControls.Label lblNombre;
 
         /// <summary>
-        /// Control lblNombreResumen.
+        /// Control lblZona.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNombreResumen;
+        protected global::System.Web.UI.WebControls.Label lblZona;
     }
 }

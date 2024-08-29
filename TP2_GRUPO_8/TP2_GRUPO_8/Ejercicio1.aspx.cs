@@ -28,12 +28,15 @@ namespace TP2_GRUPO_8
             string cantidadProducto1 = txtCantProducto_1.Text.Trim();
             string cantidadProducto2= txtCantProducto_2.Text.Trim(); 
 
+            int total_productos= int.Parse(cantidadProducto1) + int.Parse(cantidadProducto2);
+
             string tabla;
 
             tabla = "<table border = '1'>";
             tabla += "<tr> <th> Producto </th> <th> Cantidad </th> </tr> ";
             tabla += "<tr> <th> " + producto1 + "</th> <th> " + cantidadProducto1 + "</th> </tr>";
             tabla += "<tr> <th> " + producto2 + "</th> <th> " + cantidadProducto2 + "</th> </tr>";
+            tabla += "<tr> <th>" + "TOTAL" + "</th> <th>" + (total_productos) + "</th> </tr>";
 
             lblTabla.Text = tabla;
         }

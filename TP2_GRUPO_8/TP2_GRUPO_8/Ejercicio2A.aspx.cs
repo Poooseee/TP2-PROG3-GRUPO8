@@ -14,9 +14,9 @@ namespace TP2_GRUPO_8
             if (!IsPostBack)
             {
                 ListItemCollection coleccion = new ListItemCollection();
-                coleccion.Add(new ListItem("Gral. Pacheco","Zona Norte"));
-                coleccion.Add(new ListItem("San Miguel", "Zona Oeste"));
-                coleccion.Add(new ListItem("Garin", "Zona Norte"));
+                coleccion.Add(new ListItem("Gral. Pacheco","Norte"));
+                coleccion.Add(new ListItem("San Miguel", "Oeste"));
+                coleccion.Add(new ListItem("Garin", "Norte"));
 
                 foreach(ListItem item in coleccion)
                 {

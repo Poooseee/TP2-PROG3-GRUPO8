@@ -9,7 +9,9 @@
 </head>
 <body>
     <form id="form4B" runat="server">
-        <asp:Label ID="LbClaudio" runat="server" Text="Bienvenido a mi pagina Sr./a Claudio" Font-Bold="True" Font-Italic="True" Font-Overline="False" Font-Size="XX-Large"></asp:Label>
-    &nbsp;</form>
+        <asp:Label ID="LbClaudio" runat="server" Text="Bienvenido a mi pagina Sr:" Font-Bold="True" Font-Italic="True" Font-Overline="False" Font-Size="XX-Large"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="lblNombre" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large"></asp:Label>
+    </form>
 </body>
 </html>

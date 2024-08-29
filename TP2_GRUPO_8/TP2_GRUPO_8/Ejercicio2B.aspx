@@ -13,8 +13,14 @@
             <asp:Label ID="lblResumen" runat="server" Text="RESUMEN"></asp:Label>
             <br />
             <br />
-            <asp:Label ID="lblNombre" runat="server" Text="Nombre:   "></asp:Label>
-            <asp:Label ID="lblNombreResumen" runat="server" Font-Bold="True"></asp:Label>
+            Nombre:&nbsp;&nbsp;
+            <asp:Label ID="lblNombre" runat="server" Font-Bold="True"></asp:Label>
+            <br />
+            <br />
+            <br />
+            Zona:&nbsp;&nbsp;
+            <asp:Label ID="lblZona" runat="server" Font-Bold="True"></asp:Label>
+            <br />
         </div>
     </form>
 </body>
