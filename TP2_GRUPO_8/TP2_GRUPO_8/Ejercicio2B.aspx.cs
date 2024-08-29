@@ -15,6 +15,7 @@ namespace TP2_GRUPO_8
             lblNombre.Text = nombre;
 
             string apellido = ((TextBox)PreviousPage.FindControl("txtApellido")).Text;
+            lbApellido.Text = apellido;
 
             string zona = Request["ddlCiudad"].ToString();
             lblZona.Text = zona;

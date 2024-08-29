@@ -16,6 +16,8 @@
             Nombre:&nbsp;&nbsp;
             <asp:Label ID="lblNombre" runat="server" Font-Bold="True"></asp:Label>
             <br />
+            Apellido:&nbsp;&nbsp;
+            <asp:Label ID="lbApellido" runat="server" ForeColor="Black"></asp:Label>
             <br />
             <br />
             Zona:&nbsp;&nbsp;
