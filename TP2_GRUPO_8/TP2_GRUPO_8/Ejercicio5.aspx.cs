@@ -39,7 +39,7 @@ namespace TP2_GRUPO_8
                 }
             }
 
-            lblPrecioFinal.Text = "El precio final es: " + total ;
+            lblPrecioFinal.Text = "El precio final es: $" + total ;
         }
     }
 }
