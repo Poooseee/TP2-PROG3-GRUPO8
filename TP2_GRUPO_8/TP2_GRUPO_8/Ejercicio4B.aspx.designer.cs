@@ -24,13 +24,13 @@ namespace TP2_GRUPO_8
         protected global::System.Web.UI.HtmlControls.HtmlForm form4B;
 
         /// <summary>
-        /// Control LbClaudio.
+        /// Control lblClaudio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LbClaudio;
+        protected global::System.Web.UI.WebControls.Label lblClaudio;
 
         /// <summary>
         /// Control lblNombre.

@@ -9,7 +9,7 @@
 </head>
 <body style="height: 383px">
     <form id="form4A" runat="server">
-        <div>
+        <div class="centered">
             <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
 &nbsp;
             <asp:TextBox ID="txtUsuario" runat="server" Width="157px"></asp:TextBox>

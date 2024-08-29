@@ -6,12 +6,30 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style>
+        html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .centered {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <form id="form4B" runat="server">
-        <asp:Label ID="LbClaudio" runat="server" Text="Bienvenido a mi pagina Sr:" Font-Bold="True" Font-Italic="True" Font-Overline="False" Font-Size="XX-Large"></asp:Label>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="lblNombre" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large"></asp:Label>
-    </form>
+        <div class="centered">
+            <asp:Label ID="lblClaudio" runat="server" Text="Bienvenido a mi pagina Sr:" Font-Bold="True" Font-Italic="True" Font-Overline="False" Font-Size="XX-Large"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblNombre" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large"></asp:Label>
+        </div>
+            </form>
 </body>
 </html>

@@ -6,11 +6,27 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style>
+        html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .centered {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <form id="form4c" runat="server">
-        <asp:Label ID="LblDenegado" runat="server"></asp:Label>
-        <div>
+        <div class="centered">
+            <asp:Label ID="LblDenegado" runat="server"></asp:Label>
         </div>
     </form>
 </body>
