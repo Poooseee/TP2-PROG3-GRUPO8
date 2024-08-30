@@ -18,9 +18,9 @@
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlMemoria" runat="server" OnSelectedIndexChanged="ddlMemoria_SelectedIndexChanged">
-                <asp:ListItem Value="200">2GB</asp:ListItem>
-                <asp:ListItem Value="375">4GB</asp:ListItem>
-                <asp:ListItem Value="500">6GB</asp:ListItem>
+                <asp:ListItem Value="200">2GB - $200</asp:ListItem>
+                <asp:ListItem Value="375">4GB - $375</asp:ListItem>
+                <asp:ListItem Value="500">6GB - $500</asp:ListItem>
             </asp:DropDownList>
             <br />
             <br />
@@ -38,7 +38,7 @@
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="BtnCalcularPrecio" runat="server" Text="Calcular Precio" Width="115px" OnClick="BtnCalcularPrecio_Click" />
-        <p>
+        <p style="margin-left: 40px">
             <asp:Label ID="lblPrecioFinal" runat="server"></asp:Label>
         </p>
     </form>
