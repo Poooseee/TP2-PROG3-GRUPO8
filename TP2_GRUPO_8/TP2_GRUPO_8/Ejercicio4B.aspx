@@ -29,6 +29,10 @@
             <asp:Label ID="lblClaudio" runat="server" Text="Bienvenido a mi pagina Sr:" Font-Bold="True" Font-Italic="True" Font-Overline="False" Font-Size="XX-Large"></asp:Label>
         &nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lblNombre" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large"></asp:Label>
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnCerrarSesion" runat="server" OnClick="btnCerrarSesion_Click" Text="Cerrar Sesión" />
+            <br />
         </div>
             </form>
 </body>

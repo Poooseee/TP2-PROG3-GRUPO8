@@ -12,8 +12,19 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string Nombre = Request["txtUsuario"].ToString();
-            lblNombre.Text = Nombre.ToUpper();
+            if (!IsPostBack)
+            {
+                string Nombre = Request["txtUsuario"];
+                if (!string.IsNullOrEmpty(Nombre))
+                {
+                    lblNombre.Text = Nombre.ToUpper();
+                }
+            }
+        }
+
+        protected void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Ejercicio4A.aspx");
         }
     }
 }
