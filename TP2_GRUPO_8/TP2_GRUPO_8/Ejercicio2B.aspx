@@ -17,7 +17,7 @@
             <asp:Label ID="lblNombre" runat="server" Font-Bold="True"></asp:Label>
             <br />
             Apellido:&nbsp;&nbsp;
-            <asp:Label ID="lbApellido" runat="server" ForeColor="Black"></asp:Label>
+            <asp:Label ID="lbApellido" runat="server" ForeColor="Black" Font-Bold="True"></asp:Label>
             <br />
             <br />
             Zona:&nbsp;&nbsp;
@@ -26,8 +26,8 @@
             <br />
             Los temas elegidos son:
             <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lblTemas" runat="server"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
         </div>
     </form>

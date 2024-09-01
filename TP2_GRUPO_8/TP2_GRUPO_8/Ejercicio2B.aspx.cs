@@ -25,7 +25,7 @@ namespace TP2_GRUPO_8
             {
                 if (s.Selected)
                 {
-                    temas += " " + s.Text + "\n\r";
+                    temas += " " + s.Text + "<br>";
                 }
             }
             lblTemas.Text = temas;
