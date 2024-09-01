@@ -19,7 +19,6 @@
             Apellido:&nbsp;&nbsp;
             <asp:Label ID="lbApellido" runat="server" ForeColor="Black" Font-Bold="True"></asp:Label>
             <br />
-            <br />
             Zona:&nbsp;&nbsp;
             <asp:Label ID="lblZona" runat="server" Font-Bold="True"></asp:Label>
             <br />
