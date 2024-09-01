@@ -12,7 +12,7 @@
         <div class="centered">
             <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
 &nbsp;
-            <asp:TextBox ID="txtUsuario" runat="server" Width="157px"></asp:TextBox>
+            <asp:TextBox ID="txtUsuario" runat="server" Width="157px" OnTextChanged="txtUsuario_TextChanged"></asp:TextBox>
             <asp:Label ID="lblSinUsuario" runat="server" ForeColor="Red"></asp:Label>
             <br />
             <br />

@@ -8,7 +8,7 @@
     <title></title>
     <style>
         html, body {
-            height: 100%;
+            height: 4px;
             padding: 0;
             margin: 0;
         }
@@ -16,11 +16,12 @@
         .centered {
             margin: 0;
             padding: 0;
-            height: 100vh;
+            height: 105px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
+
     </style>
 </head>
 <body>
@@ -28,6 +29,9 @@
         <div class="centered">
             <asp:Label ID="LblDenegado" runat="server"></asp:Label>
         </div>
+        <p class="centered" style="height: 0px">
+            <asp:Button ID="btnVolver" runat="server" OnClick="Button1_Click" Width="100px" />
+        </p>
     </form>
 </body>
 </html>
