@@ -29,9 +29,9 @@
         </div>
         <div style="margin-left: 80px">
             <asp:CheckBoxList ID="CBLAccesorios" runat="server" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
-                <asp:ListItem Value="2000,50">Monitor LCD</asp:ListItem>
-                <asp:ListItem Value="550,50">HDD 500GB</asp:ListItem>
-                <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
+                <asp:ListItem Value="2000,50">Monitor LCD - $2000,50</asp:ListItem>
+                <asp:ListItem Value="550,50">HDD 500GB - $550,50</asp:ListItem>
+                <asp:ListItem Value="1200">Grabador DVD - $1200</asp:ListItem>
             </asp:CheckBoxList>
         </div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
