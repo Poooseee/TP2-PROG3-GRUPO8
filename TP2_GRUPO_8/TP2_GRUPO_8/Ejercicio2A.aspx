@@ -35,10 +35,7 @@
         <br />
         <asp:Label ID="lblTemas" runat="server" Text="Temas:"></asp:Label>
         <div style="margin-left: 80px">
-            <asp:CheckBoxList ID="CheckBoxList1" runat="server" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
-                <asp:ListItem>Ciencias</asp:ListItem>
-                <asp:ListItem>Literatura</asp:ListItem>
-                <asp:ListItem>Historia</asp:ListItem>
+            <asp:CheckBoxList ID="cblTemas" runat="server" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
             </asp:CheckBoxList>
         </div>
         <p style="margin-left: 120px">

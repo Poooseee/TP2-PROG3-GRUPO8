@@ -22,6 +22,10 @@ namespace TP2_GRUPO_8
                 {
                     ddlCiudad.Items.Add(item);
                 }
+
+                cblTemas.Items.Add("Ciencias");
+                cblTemas.Items.Add("Literatura");
+                cblTemas.Items.Add("Historia");
             }
 
         }

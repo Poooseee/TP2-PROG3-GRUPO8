@@ -12,7 +12,7 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+           lblPrecioFinal.Font.Bold = true;
         }
 
         protected void ddlMemoria_SelectedIndexChanged(object sender, EventArgs e)

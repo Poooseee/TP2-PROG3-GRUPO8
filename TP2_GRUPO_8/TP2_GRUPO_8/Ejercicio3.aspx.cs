@@ -12,7 +12,11 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            LkBtnRojo.Font.Bold = true;
+            LkBtnVerde.Font.Bold = true;
+            LkBtnAzul.Font.Bold = true;
+            lblColoreado.Font.Bold = true;
+            lblColoreado.Font.Italic = true;
         }
 
         protected void LkBtnRojo_Click(object sender, EventArgs e)

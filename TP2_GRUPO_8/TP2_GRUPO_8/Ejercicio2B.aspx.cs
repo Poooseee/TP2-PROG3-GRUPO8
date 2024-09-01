@@ -19,6 +19,16 @@ namespace TP2_GRUPO_8
 
             string zona = Request["ddlCiudad"].ToString();
             lblZona.Text = zona;
+
+            string temas = " ";
+            foreach(ListItem s in ((CheckBoxList)PreviousPage.FindControl("cblTemas")).Items)
+            {
+                if (s.Selected)
+                {
+                    temas += " " + s.Text + "\n\r";
+                }
+            }
+            lblTemas.Text = temas;
         }
     }
 }

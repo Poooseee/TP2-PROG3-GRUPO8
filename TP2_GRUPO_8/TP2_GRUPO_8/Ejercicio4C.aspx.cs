@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -17,6 +18,12 @@ namespace TP2_GRUPO_8
             LblDenegado.Font.Bold = true;
             LblDenegado.Font.Italic = true;
             LblDenegado.Font.Size = FontUnit.XXLarge;
+            btnVolver.Text = "VOLVER";
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("Ejercicio4A.aspx");
         }
     }
 }

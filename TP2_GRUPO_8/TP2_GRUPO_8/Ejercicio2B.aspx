@@ -23,6 +23,12 @@
             Zona:&nbsp;&nbsp;
             <asp:Label ID="lblZona" runat="server" Font-Bold="True"></asp:Label>
             <br />
+            <br />
+            Los temas elegidos son:
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblTemas" runat="server"></asp:Label>
+            <br />
         </div>
     </form>
 </body>
